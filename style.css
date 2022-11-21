@@ -1,0 +1,231 @@
+.fondo {
+  background-image: url("IMAGENES/Central/imagenCentral.png");
+  background-position: auto;
+  background-size: cover;
+}
+
+.fondoTransparente {
+  background-color: transparent !important;
+  border: none;
+}
+
+/* Clases de BODY*/
+
+body {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+/* Clases de PRODUCTOS*/
+
+.colorTituloCard {
+  color: #d5ac8c !important;
+}
+
+.fondoCardProductos {
+  background-color: #000000 !important;
+  border: none;
+}
+.img-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.colorFondo {
+  background-color: rgb(80, 73, 73) !important;
+}
+
+.bordeBotonCardProductos {
+  color: #d5ac8c !important;
+  border-color: #d5ac8c !important;
+}
+
+.fondoCardProductosAlfajor {
+  background-color: #bc9677 !important;
+  border: none;
+}
+
+.colorTituloCardAlfajor {
+  color: #63421e !important;
+}
+.tituloAlfajor {
+  color: #63421e;
+}
+.botonAlfajor {
+  border: 1px solid #63421e;
+  color: #63421e;
+}
+
+.bordeBotonCardProductosAlfajor {
+  color: #63421e !important;
+  border-color: #63421e !important;
+}
+
+.ocultar-mostrar {
+  display: inline;
+}
+
+.icono {
+  width: 100px;
+  min-width: 50px;
+  max-width: 100px;
+  color: #fff;
+}
+
+.color-texto {
+  color: #493a2b;
+  text-decoration: none;
+}
+
+.alfajores {
+  width: 75%;
+  min-width: 300px;
+}
+
+.img-contacto {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.inputFondo {
+  background-color: #806a54;
+  border: none;
+}
+/*formulario*/
+.letraForm {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bordeBoton {
+  border: 2px solid #6e5944;
+  display: flex;
+}
+.BotonProducto {
+  border: 3px solid #d5ac8c;
+  color: #d5ac8c;
+}
+.mi-input::placeholder {
+  color: white;
+  opacity: 0.3;
+}
+.textoFooter {
+  color: #bca177 !important;
+  text-decoration: none;
+}
+.anclas {
+  text-decoration: none;
+}
+
+.icono {
+  color: white;
+}
+.caja {
+  width: 50%;
+  height: 50vh;
+}
+@media (max-width: 768px) {
+  .tamano {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .ocultar-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .fondo {
+    height: 100vh;
+  }
+  .ocultar-mostrar {
+    display: none;
+  }
+
+  .ocultar-logo {
+    display: inline;
+  }
+
+  .barra {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .barraCentrada {
+    display: flex;
+    align-items: center;
+  }
+  .colorBarra {
+    background-color: transparent !important;
+  }
+  .tituloHeader {
+    font-size: 3em !important;
+    font-weight: 200;
+  }
+  .textoHeader {
+    font-size: 1.3em !important;
+    text-align: justify !important;
+  }
+  .cajaHeader {
+    padding: 0 20px 200px 100px;
+  }
+  .botonHeader {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 28px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+  }
+
+  .imagenAlfajor {
+    padding: 40px !important;
+    margin: 0px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .tituloHeader {
+    font-size: 2.5em !important;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 992px) {
+  .icono {
+    width: 60px;
+  }
+  .textoHeader {
+    font-size: 1em !important;
+    margin-top: 30px;
+  }
+  .tituloHeader {
+    font-size: 1.5em !important;
+    font-weight: 200;
+  }
+  .mapa {
+    align-items: center !important;
+    justify-content: space-between;
+  }
+  .menuFotter {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .menuFotter {
+    margin-left: 0px;
+  }
+  .aself {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding: 0;
+    margin: 0;
+  }
+}
